@@ -7,7 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
   const minYear = document.getElementById('minYear');
   const formTitle = document.getElementById('formTitle');
 
-  const API = '/api/cars';
+  const API = 'https://automarket-mc5l.onrender.com/api/cars';
+
   let cars = [];
   let editId = null;
 
